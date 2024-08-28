@@ -1,0 +1,123 @@
+header {
+  min-width: 100%;
+  background-color: var(--cor-azul-fundo);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header > img {
+  width: 20%;
+}
+
+.section {
+  background-image: url(https://fmp.edu.br/wp-content/uploads/2021/10/fmp-pensao-alimenticia-direito-scaled.jpg);
+  background-size: cover;
+  min-width: 100%;
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  text-align: center;
+}
+
+.titulo-header {
+  font-size: 40px;
+  line-height: 40px;
+  color: white;
+}
+
+.section-box > h3 {
+  color: white;
+  font-weight: 400;
+}
+
+.contato {
+  width: 65%;
+  font-size: 1.1rem;
+  background-color: #49A91F;
+  border: 1px solid #49A91F;
+  border-radius: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+  min-height: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.contato:hover {
+  transform: scale(1.1);
+  background-color: #44a51b;
+}
+
+.ajuda {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 2rem;
+}
+
+.ajuda > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ajuda > div > h3 {
+  font-weight: 400;
+  color: var(--cor-azul-fundo);
+  font-size: 1.5rem;
+}
+
+.titulo-ajuda {
+  font-size: 4rem;
+  line-height: 40px;
+  color: var(--cor-azul-fundo);
+  padding: 2rem;
+}
+
+.cards {
+  margin-top: 3rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  max-width: 70%;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: .8rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: var(--cor-azul-fundo);
+  color: var(--cor-amarela-fundo);
+  transition: all 0.25s ease-in;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+
